@@ -1,0 +1,11 @@
+# Profile for Taran2626 account
+Host github.com-taran2626
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_ed25519_taran2626
+    IdentitiesOnly yes
+
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
